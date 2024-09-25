@@ -295,3 +295,23 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+/*Responsivness*/
+@media (max-width:900px) {
+  .balance{
+    justify-content: space-evenly;
+  }
+  .app{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .operation{
+    width: 80%;
+    margin: 10px;
+    align-self: center;
+  }
+  .summary{
+    margin: 10px;
+  }
+}
